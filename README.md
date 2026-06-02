@@ -1,17 +1,31 @@
-# React + Vite
+# 🐞 AI Bug Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Tool Pencari Bug Otomatis dengan Kecerdasan Buatan**
 
-Currently, two official plugins are available:
+AI Bug Finder adalah aplikasi web modern yang menggunakan AI (Claude AI) untuk menganalisis kode secara otomatis, menemukan bug, memberikan saran perbaikan, dan menampilkan kode yang sudah diperbaiki. Ideal untuk developer yang ingin mempercepat proses debugging dan meningkatkan kualitas kode.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Fitur Utama
 
-## React Compiler
+- 🔍 **Analisis Kode Otomatis** - Deteksi bug secara instan dengan AI
+- 🎯 **4 Tingkat Severitas** - Critical, High, Medium, Low
+- 📝 **Penjelasan Detail** - Setiap bug dijelaskan dengan akar penyebabnya
+- 🔧 **Kode yang Sudah Diperbaiki** - Tampilan langsung kode hasil perbaikan
+- 📊 **Health Score** - Nilai kesehatan kode dari 0-100
+- 💻 **Multi-language Support** - JavaScript, Python, React, dan lainnya
+- ⚡ **Keyboard Shortcuts** - `Ctrl+Enter` untuk analisis cepat
+- 📋 **Copy & Paste** - Mudah menyalin kode hasil perbaikan
+- 🎨 **Modern UI** - Desain gelap dengan aksen neon yang keren
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Demo Cepat
 
-## Expanding the ESLint configuration
+### Contoh Kode yang Akan Dideteksi:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Bug Finder - Tool Pencari Bug" 
+```javascript
+// Kode bermasalah
+const data = undefined;
+console.log(data.name);
+
+function fetchUser(id) {
+  const user = getUserById(id)
+  return user.profile.avatar
+}
