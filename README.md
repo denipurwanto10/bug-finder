@@ -16,16 +16,3 @@ AI Bug Finder adalah aplikasi web modern yang menggunakan AI (Claude AI) untuk m
 - 📋 **Copy & Paste** - Mudah menyalin kode hasil perbaikan
 - 🎨 **Modern UI** - Desain gelap dengan aksen neon yang keren
 
-## 🚀 Demo Cepat
-
-### Contoh Kode yang Akan Dideteksi:
-
-```javascript
-// Kode bermasalah
-const data = undefined;
-console.log(data.name);
-
-function fetchUser(id) {
-  const user = getUserById(id)
-  return user.profile.avatar
-}
