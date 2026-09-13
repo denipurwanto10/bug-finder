@@ -1,0 +1,17 @@
+[
+  {"package": "WordPress", "affected": "<5.9", "cve": "CVE-2022-XXXX", "severity": "High",
+   "summary": "Sample entry: outdated WordPress core may contain known RCE/XSS issues. Replace with live feed data.",
+   "remediation": "Upgrade WordPress to a supported release."},
+  {"package": "jQuery", "affected": "<3.5.0", "cve": "CVE-2020-11022", "severity": "Medium",
+   "summary": "jQuery before 3.5.0 vulnerable to cross-site scripting via htmlPrefilter.",
+   "remediation": "Upgrade jQuery to 3.5.0 or later."},
+  {"package": "Bootstrap", "affected": "<4.5.0", "cve": "CVE-2019-8331", "severity": "Medium",
+   "summary": "Bootstrap before 4.5.0 XSS in tooltip/popover data-template.",
+   "remediation": "Upgrade Bootstrap to 4.5.0 or later."},
+  {"package": "Lodash", "affected": "<4.17.21", "cve": "CVE-2021-23337", "severity": "High",
+   "summary": "Lodash command injection via template option.",
+   "remediation": "Upgrade Lodash to 4.17.21 or later."},
+  {"package": "Django", "affected": "<3.2.13", "cve": "CVE-2022-22818", "severity": "Medium",
+   "summary": "Sample: Django denial-of-service via certain form handling.",
+   "remediation": "Upgrade Django to a patched LTS."}
+]
